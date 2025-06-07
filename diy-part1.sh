@@ -12,4 +12,4 @@ sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf
 sed -i '2i src-git small https://github.com/kenzok8/small' feeds.conf.default
 sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
 # homeproxy
-git clone --depth=1 https://github.com/immortalwrt/homeproxy.git package/homeproxy
+#git clone --depth=1 https://github.com/immortalwrt/homeproxy.git package/homeproxy
